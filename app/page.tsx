@@ -497,7 +497,7 @@ export default function Home() {
                 href="mailto:seuemail@email.com"
                 className="block rounded-xl border border-blue-500/20 bg-[#061426] p-5 transition hover:border-blue-500/60"
               >
-                📧 seuemail@email.com
+                📧 cauasantos.dev26@gmail.com
               </a>
 
               <a
@@ -506,7 +506,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="block rounded-xl border border-blue-500/20 bg-[#061426] p-5 transition hover:border-blue-500/60"
               >
-                💼 linkedin.com/in/seu-perfil
+                💼 www.linkedin.com/in/cauasantos26
               </a>
 
               <a
@@ -515,7 +515,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="block rounded-xl border border-blue-500/20 bg-[#061426] p-5 transition hover:border-blue-500/60"
               >
-                ◉ github.com/seu-usuario
+                ◉https://github.com/CauaSantos26/portfolio-cybersecurity
               </a>
             </div>
           </div>
