@@ -303,17 +303,17 @@ export default function Home() {
               </h3>
 
               <ul className="mt-6 space-y-4 text-sm text-slate-300">
-                <li>◉ Defesa cibernética</li>
-                <li>◉ Análise de ameaças</li>
-                <li>◉ Segurança de redes</li>
-                <li>◉ Pentest e Bug Bounty</li>
-                <li>◉ Automação com Python</li>
-                <li>◉ SOC / Blue Team</li>
+                  <li>◉ Red Team & Pentest</li>
+                  <li>◉ Application Security (AppSec)</li>
+                  <li>◉ Web Application Security</li>
+                  <li>◉ OWASP Top 10</li>
+                  <li>◉ Vulnerability Assessment</li>
+                  <li>◉ Bug Bounty</li>
               </ul>
 
               <p className="mt-7 border-t border-blue-500/10 pt-5 font-medium italic text-blue-400">
-                "Segurança não é um produto,
-                é um processo contínuo."
+               "Conhecer como um ataque funciona é essencial
+                para construir uma defesa melhor."
               </p>
             </div>
           </div>
