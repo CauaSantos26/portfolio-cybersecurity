@@ -188,6 +188,14 @@ export default function Home() {
               >
                 ⚡ Ver Projetos
               </a>
+                  <a
+                    href="/curriculo.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-blue-500/60 px-6 py-3 font-semibold text-blue-400 transition hover:bg-blue-500/10"
+                  >
+                      📄 Baixar currículo
+                    </a>
 
               <a
                 href="https://github.com"
