@@ -236,8 +236,10 @@ export default function Home() {
       <br />
       Web Security
     </p>
-  </div>
+   </div>
 </div>
+</div>
+
       {/* ================= SOBRE ================= */}
       <section
         id="sobre"
