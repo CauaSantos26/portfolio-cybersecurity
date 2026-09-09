@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const skills = [
   {
     icon: "🌐",
@@ -199,42 +201,43 @@ export default function Home() {
           </div>
 
           {/* VISUAL CYBER */}
-          <div className="relative hidden h-[420px] lg:block">
-            <div className="absolute inset-10 rounded-3xl border border-blue-500/20 bg-blue-500/5 shadow-2xl shadow-blue-500/10" />
+          <div className="relative hidden h-[500px] overflow-hidden rounded-2xl border border-blue-500/30 lg:block">
+  <Image
+    src="/hero-cyber.jpg"
+    alt="Ambiente de cibersegurança"
+    fill
+    priority
+    className="object-cover"
+  />
 
-            <div className="absolute left-10 top-16 h-64 w-72 rounded-xl border border-blue-500/30 bg-[#061426] p-5 font-mono text-xs text-blue-400 shadow-2xl">
-              <p>$ whoami</p>
-              <p className="mt-2 text-slate-500">
-                cybersecurity_student
-              </p>
+  <div className="absolute inset-0 bg-gradient-to-r from-[#020817] via-[#020817]/40 to-blue-900/20" />
 
-              <p className="mt-6">$ security_status</p>
-              <p className="mt-2 text-green-400">
-                ● SYSTEM SECURE
-              </p>
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_40%,rgba(37,99,235,0.30),transparent_45%)]" />
 
-              <p className="mt-6">$ skills</p>
-              <p className="mt-2 text-slate-400">
-                Linux
-                <br />
-                Networking
-                <br />
-                Python
-                <br />
-                Security
-              </p>
-            </div>
+  <div className="absolute bottom-8 left-8 w-64 rounded-xl border border-blue-500/40 bg-[#020817]/90 p-5 font-mono text-xs shadow-2xl backdrop-blur">
+    <p className="text-blue-400">$ whoami</p>
 
-            <div className="absolute bottom-14 right-6 rounded-xl border border-blue-500/30 bg-[#061426] p-5 shadow-xl">
-              <div className="text-5xl">🛡️</div>
-              <p className="mt-2 font-mono text-xs text-blue-400">
-                SECURITY
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <p className="mt-2 text-slate-400">
+      cybersecurity_student
+    </p>
 
+    <p className="mt-5 text-blue-400">$ security_status</p>
+
+    <p className="mt-2 text-green-400">
+      ● SYSTEM SECURE
+    </p>
+
+    <p className="mt-5 text-blue-400">$ focus</p>
+
+    <p className="mt-2 text-slate-400">
+      Red Team
+      <br />
+      AppSec
+      <br />
+      Web Security
+    </p>
+  </div>
+</div>
       {/* ================= SOBRE ================= */}
       <section
         id="sobre"
